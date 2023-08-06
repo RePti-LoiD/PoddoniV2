@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/MainPage/style.css'>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,700;1,100;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header style="background-color: rgb(249, 249, 249); padding: 50px;">
+        <div style="display: flex; justify-content: center;">
+            <a href="#main" onclick="launchPage('main.html')" style="text-align: center; font-size: 60px; margin: 20px; font-weight: 500;">EKOSS</a>
+        </div>
+        
+        <div style="display: flex; justify-content: center;">
+            <ul class="navList" style="padding: 0px; translate: calc(-5%)">
+                <li><a href="#home" onclick="scrollToElemOffset(350)">Поддоны</a></li>
+                <li><a href="#about" onclick="scrollToElemOffset(1250)">О нас</a></li>
+                <li><a href="#sales" onclick="launchPage('sales.html')">Продажа</a></li>
+                <li><a href="#contacts" onclick="scrollToElemOffset(2100)">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section style="margin-top: 100px;">
+        
+        <div style="margin-left: 250px; margin-right: 250px;">
+            <div>
+                <h1>Поддоны</h1>
+                <h3>Деревянные - продажа / покупка</h1>
+            </div>
+            <hr class="splitter-header">
+
+            <div class="f-frame">
+                <h3 id="debugText" style="width: 500px; position: relative;"> Паллеты, деревянные поддоны, европоддоны и европаллеты - наиболее простой и экономичный способ транспортировки и складирования грузов, поддоны изготавливаются из экологически чистых материалов (ель, ольха, берёза) и представляют собой достаточно простую и функциональную конструкцию.Компания «Ростов поддон» работает на рынке поддонов и европаллет Ростова-на-Дону <span class="text-highlight">с 2007</span> года и зарекомендовала себя как надежный партнер малого и среднего бизнеса, деятельность которого связана с логистикой, складированием и транспортировкой грузов и, соответственно, с покупкой, продажей поддонов и европаллет.В зависимости от характера перевозок и требуемого качества «Ростов поддон» предлагает на выбор <a href="sales.html"><span class="text-highlight">широкий ассортимент</span></a> деревянных поддонов и европаллет различного размера, качества, маркировки и материала. Мы всегда рады нашим клиентам, на нашем складе мы обеспечиваем быструю разгрузку, моментальный расчет, возможен самостоятельный самовывоз поддонов с Вашей территории.</h3>
+                <img src="/src/img/Pallete2.png" style="height: 600px; border-radius: 15px;">
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 100px;">
+        <div style="display: flex; justify-content: center; overflow: hidden;">
+            <div class="parralax-handler">
+
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 100px;">
+        <div style="margin-left: 250px; margin-right: 250px;">
+            <div>
+                <h1>О нас</h1>
+                <h3>Почему с нами выгодно содрудничать</h1>
+            </div>
+            <hr class="splitter-header">
+
+            <div style="display: flex; justify-content: center;">
+                <div style="width: 1000px; margin-top: 50px; display: flex; flex-wrap: wrap; justify-content: center;">
+                    <div class="card-style">
+                        <img src="/src/img/icon/accept-car.png" class="icon-style">
+        
+                        <h1 class="header-text-style">Самовывоз</h1>
+                        <h1 class="body-text-style">Возможен самовывоз поддонов с нашего склада</h1>
+                    </div>
+        
+                    <div class="card-style">
+                        <img src="/src/img/icon/credit-card.png" class="icon-style">
+        
+                        <h1 class="header-text-style">Выгодные цены</h1>
+                        <h1 class="body-text-style">Оптовая цена от 190 руб/шт</h1>
+                    </div>
+                    <div class="card-style">
+                        <img src="/src/img/icon/valid.png" class="icon-style">
+                        
+                        <h1 class="header-text-style">Документы</h1>
+                        <h1 class="body-text-style">Работаем с НДС<br>Предоставим все возможные документы</h1>
+                    </div>
+                    <div class="card-style">
+                        <img src="/src/img/icon/boxes.png" class="icon-style">
+        
+                        <h1 class="header-text-style">Доставка со склада</h1>
+                        <h1 class="body-text-style">Возможна доставка поддонов с нашего склада</h1>
+                    </div>
+                    <div class="card-style">
+                        <img src="/src/img/icon/badge.png" class="icon-style">
+                        
+                        <h1 class="header-text-style">Соотвествие ГОСТ</h1>
+                        <h1 class="body-text-style">Следим за качеством своей продукции</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section style="margin-top: 100px;">
+        
+        <div style="margin-left: 250px; margin-right: 250px;">
+            <div>
+                <h1>Контакты</h1>
+                <h3>Свяжитесь с нами, или закажите звонок</h1>
+            </div>
+            <hr class="splitter-header">
+
+            <div style="margin-top: 50px; margin-left: 40px; z-index: 11;">
+                <h2 style="text-align: start;">Контактный телефон</h2>
+                <h1>+7 (928) 270-11-69</h1>
+                <div style="z-index: 1;">
+                    <h1 class="opacity-text">+7 (928) 270-11-69</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="display: flex; flex-direction: column; height: 350px;">
+            <h1>EKOSS</h1>
+            <h3>Ltd ekoss corp.</h1>
+            <hr class="splitter-header">
+            <h3 style="margin-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h3>
+            
+            <div style="align-self: flex-end;">
+                <h3 style="font-size: 15px;">&#xa9 2023 все права защищены</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src='/MainPage/script.js'></script>
+</body>
+</html>

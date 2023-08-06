@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/MainPage/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/SalesPage/salesPageStyle.css'>
+</head>
+<body>
+    <header style="background-color: rgb(249, 249, 249); padding: 50px;">
+        <div style="display: flex; justify-content: center;">
+            <a href="#main" onclick="launchPage('main.html')" style="text-align: center; font-size: 60px; margin: 20px; font-weight: 500;">EKOSS</a>
+        </div>
+        
+        <div style="display: flex; justify-content: center;">
+            <ul class="navList" style="padding: 0px; translate: calc(-5%)">
+                <li><a href="#idk" onclick="launchMainPage('350')">Поддоны</a></li>
+                <li><a href="#about" onclick="launchMainPage('1250')">О нас</a></li>
+                <li><a href="sales.html">Продажа</a></li>
+                <li><a href="#contacts" onclick="launchMainPage('2150')">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section style="margin-top: 100px;">
+        <div style="margin-left: 250px; margin-right: 250px;">
+            <div>
+                <h1>Продажа</h1>
+                <h3><a href="#idk" style="color: rgb(255, 183, 0);" onclick="launchMainPage('350')">Поддоны</a> / продажа</h1>
+            </div>
+            <hr class="splitter-header">
+            
+            <div class="slider-main-div">
+                <div class="slider-button">
+                    <img src="src/img/icon/back.png" id="prevBtn" class="slider-image">            
+                </div>
+
+                <div style="background-color: rgb(245, 245, 245); border-radius: 10px; width: 1000px; display: flex; justify-content: space-around;">
+                    
+                    <div style="overflow: hidden; height: calc(100% - 10px); width: 800px; border-radius: 5px; margin: 5px;">
+                        <img src="https://www.poddonvrostove.ru/images/2019/10/05/kleym-poddon.jpg" class="show-img">
+                    </div>
+                    
+                    <div>
+                        <h1 style="margin: 30px;">Евпроподдон с клеймом</h1>
+                        
+                        <h3 style="margin: 30px;">
+                            1 сорт<br>
+                            ГОСТ: EUR EPAL<br>
+                            Размер: 1200х800 см<br>
+                            Грузоподъемность: 2500 кг
+                        </h3>
+
+                        <h2>150₽/шт</h2>
+                    </div>
+                </div>
+
+                <div class="slider-button">
+                    <img src="src/img/icon/next.png" id="nextBtn" class="slider-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="display: flex; flex-direction: column; height: 350px;">
+            <h1>EKOSS</h1>
+            <h3>Ltd ekoss corp.</h1>
+            <hr class="splitter-header">
+            <h3 style="margin-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h3>
+            
+            <div style="align-self: flex-end;">
+                <h3 style="font-size: 15px;">&#xa9 2023 все права защищены</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/SalesPage/salesPageScript.js"></script>
+</body>
+</html>
