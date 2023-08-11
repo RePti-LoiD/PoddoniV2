@@ -6,7 +6,7 @@ function launchMainPage(scrollOffset) {
     console.log("ASS");
     document.cookie = "scrollOffset=" + scrollOffset +";";
     window.location.href = "";
-    window.location.href = "main.html";
+    window.location.href = "index.html";
 }
 
 
