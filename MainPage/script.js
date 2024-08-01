@@ -1,20 +1,15 @@
-txt = document.getElementById("debugText");
+function scrollToMain(elemName) {
+    document.getElementById('main-section').scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
 
-scrollToElem();
+function scrollToAbout(elemName) {
+    document.getElementById('about-section').scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
 
-function scrollToElemOffset(yOffset) {
-    window.scroll(0, yOffset);
+function scrollToContact(elemName) {
+    document.getElementById('contact-section').scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 }
 
 function launchPage(pagePath) {
     window.location.href = pagePath;
-    document.cookie = "scrollOffset=" + 0;
-}
-
-
-function scrollToElem() {
-    if (document.cookie != "") {
-        arr = document.cookie.split("=");
-        window.scroll(0, arr[1]);
-    }
 }
